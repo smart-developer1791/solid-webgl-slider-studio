@@ -1,0 +1,30 @@
+{
+  "name": "solid-webgl-slider-studio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "@solidjs/web": "2.0.3",
+    "@lucide/solid": "1.62.0",
+    "solid-js": "2.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "6.0.3",
+    "vite": "8.3.8",
+    "@solidjs/vite-plugin": "3.0.1",
+    "@tailwindcss/vite": "4.2.2",
+    "tailwindcss": "4.2.2"
+  },
+  "description": "The Solid implementation of Shader Slider Studio with WebGL2 transitions, live settings, and browser-local presets.",
+  "license": "MIT",
+  "engines": {
+    "node": "^22.18.0 || >=24.12.0"
+  }
+}
